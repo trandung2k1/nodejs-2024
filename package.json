@@ -1,0 +1,20 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node --watch src/index.js"
+    },
+    "_moduleAliases": {
+        "@utils": "src/utils",
+        "@controllers": "src/controllers"
+    },
+    "keywords": [],
+    "author": "dungtv",
+    "license": "ISC",
+    "dependencies": {
+        "module-alias": "^2.2.3",
+        "pure-http": "^4.0.2"
+    }
+}
